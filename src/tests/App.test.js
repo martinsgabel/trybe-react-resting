@@ -66,9 +66,9 @@ describe('App', () => {
     () => {
       const { history } = renderWithRouter(<App />);
 
-      const linkHome = screen.getByRole('link', { name: /favorite pokémons/i });
+      const linkFav = screen.getByRole('link', { name: /favorite pokémons/i });
 
-      userEvent.click(linkHome);
+      userEvent.click(linkFav);
 
       const { location: { pathname } } = history;
       expect(pathname).toBe('/favorites');
