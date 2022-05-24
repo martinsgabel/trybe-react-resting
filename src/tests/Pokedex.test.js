@@ -91,3 +91,11 @@ describe('Pokedex', () => {
     expect(all).toBeInTheDocument();
   });
 });
+
+/*
+A Pokedéx deverá mostrar os pokémons normalmente (sem filtros) quando o botão All for clicado; (como checar se apenas mostra um pokemon por vez?)
+
+Ao carregar a página, o filtro selecionado deverá ser All; (Como checar se ele esta selecionado?)
+
+(o que os erros significam)
+*/
