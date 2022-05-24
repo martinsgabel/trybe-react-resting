@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import renderWithRouter from '../renderWithRouter';
 import { NotFound } from '../components';
 
-describe('App', () => {
+describe('NotFound', () => {
   it('se a página contém um heading h2 com o texto', () => {
     renderWithRouter(<NotFound />);
 

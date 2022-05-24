@@ -5,7 +5,7 @@ import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 import { FavoritePokemons } from '../components';
 
-describe('App', () => {
+describe('Favorite Pokemons', () => {
   it('se é exibido mensagem, caso a pessoa não tenha pokémons favoritos', () => {
     renderWithRouter(<FavoritePokemons />);
 
